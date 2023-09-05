@@ -159,35 +159,8 @@ export const CompanionForm = ({
                       ))}
                     </SelectContent>
                   </Select>
-                  <FormControl>
-                    <Input
-                      disabled={isLoading}
-                      placeholder="CEO & Founder of Tesla, SpaceX, Neuralink, and The Boring Company"
-                      {...field}
-                    />
-                  </FormControl>
                   <FormDescription>
-                    Description of your AI Companion.
-                  </FormDescription>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-            <FormField
-              name="dscription"
-              control={form.control}
-              render={({ field }) => (
-                <FormItem className="col-span-2 md:col-span-1">
-                  <FormLabel>Description</FormLabel>
-                  <FormControl>
-                    <Input
-                      disabled={isLoading}
-                      placeholder="CEO & Founder of Tesla, SpaceX, Neuralink, and The Boring Company"
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormDescription>
-                    Description of your AI Companion.
+                    Select a category for your AI Companion.
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
