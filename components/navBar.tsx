@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, Sparkles } from "lucide-react"
+import { Sparkles } from "lucide-react"
 import Link from "next/link"
 
 import { cn } from "@/lib/utils"
