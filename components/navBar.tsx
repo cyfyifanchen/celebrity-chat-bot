@@ -21,12 +21,12 @@ export const NavBar = () => {
             <div className="flex items-center">
                 <MobileSiderbar />
                 <Link href="/">
-                    <h1 className={cn("text-2xl font-bold text-primary", font.className)}>Demo</h1>
+                    <h1 className={cn("text-2xl font-bold text-primary", font.className)}>CHOOSE YOUR FIGHTER</h1>
                 </Link>
             </div>
             <div className="flex items-center gap-x-3">
                 <Button variant="premium" size="sm">
-                    Upgrade
+                    Upgrade to Pro
                     <Sparkles className="h-4 w-4 fill-white text-white ml-2"></Sparkles>
                 </Button>
                 <ModeToggle />

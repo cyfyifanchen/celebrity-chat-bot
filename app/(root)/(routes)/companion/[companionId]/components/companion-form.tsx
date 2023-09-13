@@ -110,10 +110,7 @@ export const CompanionForm = ({
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 pb-10">
           <div className="space-y-2 w-full col-span-2">
             <div>
-              <h3 className="text-lg font-medium">General Information</h3>
-              <p className="text-sm text-muted-foreground">
-                General information about your Companion
-              </p>
+              <h3 className="text-lg font-medium">Create your fighter</h3>
             </div>
             <Separator className="bg-primary/10" />
           </div>
@@ -136,11 +133,8 @@ export const CompanionForm = ({
                 <FormItem className="col-span-2 md:col-span-1">
                   <FormLabel>Name</FormLabel>
                   <FormControl>
-                    <Input disabled={isLoading} placeholder="Elon Musk" {...field} />
+                    <Input disabled={isLoading} placeholder="" {...field} />
                   </FormControl>
-                  <FormDescription>
-                    This is how your AI Companion will be named.
-                  </FormDescription>
                   <FormMessage />
                 </FormItem>
               )}
@@ -152,11 +146,8 @@ export const CompanionForm = ({
                 <FormItem>
                   <FormLabel>Description</FormLabel>
                   <FormControl>
-                    <Input disabled={isLoading} placeholder="CEO & Founder of Tesla, SpaceX" {...field} />
+                    <Input disabled={isLoading} placeholder="" {...field} />
                   </FormControl>
-                  <FormDescription>
-                    Short description for your AI Companion
-                  </FormDescription>
                   <FormMessage />
                 </FormItem>
               )}
@@ -179,9 +170,6 @@ export const CompanionForm = ({
                       ))}
                     </SelectContent>
                   </Select>
-                  <FormDescription>
-                    Select a category for your AI
-                  </FormDescription>
                   <FormMessage />
                 </FormItem>
               )}
@@ -190,9 +178,6 @@ export const CompanionForm = ({
           <div className="space-y-2 w-full">
             <div>
               <h3 className="text-lg font-medium">Configuration</h3>
-              <p className="text-sm text-muted-foreground">
-                Detailed instructions for AI Behaviour
-              </p>
             </div>
             <Separator className="bg-primary/10" />
           </div>
@@ -203,11 +188,8 @@ export const CompanionForm = ({
               <FormItem>
                 <FormLabel>Instructions</FormLabel>
                 <FormControl>
-                  <Textarea disabled={isLoading} rows={7} className="bg-background resize-none" placeholder={PREAMBLE} {...field} />
+                  <Textarea disabled={isLoading} rows={7} className="bg-background resize-none" placeholder="" {...field} />
                 </FormControl>
-                <FormDescription>
-                  Describe in detail your companion&apos;s backstory and relevant details.
-                </FormDescription>
                 <FormMessage />
               </FormItem>
             )}
@@ -219,18 +201,15 @@ export const CompanionForm = ({
               <FormItem>
                 <FormLabel>Example Conversation</FormLabel>
                 <FormControl>
-                  <Textarea disabled={isLoading} rows={7} className="bg-background resize-none" placeholder={SEED_CHAT} {...field} />
+                  <Textarea disabled={isLoading} rows={7} className="bg-background resize-none" placeholder="" {...field} />
                 </FormControl>
-                <FormDescription>
-                  Write couple of examples of a human chatting with your AI companion, write expected answers.
-                </FormDescription>
                 <FormMessage />
               </FormItem>
             )}
           />
           <div className="w-full flex justify-center">
             <Button size="lg" disabled={isLoading}>
-              {initialData ? "Edit your companion" : "Create your companion"}
+              {initialData ? "Edit your fighter" : "Create your fighter"}
               <Wand2 className="w-4 h-4 ml-2" />
             </Button>
           </div>
