@@ -14,9 +14,10 @@ Visit live at https://saas-demo-mu.vercel.app
 * Plantscale: DB
 * Vercel: Deployment && logging && monitoring
 * Tailwind ShadCN: Styling
-* Pinecone, Memory service
-* OpenAI, Live LLM, chat AI response
-* Cloudiary, Media service
+* Pinecone: Memory service
+* OpenAI: Live LLM, chat AI response
+* Cloudiary: Media service
+* Replicate: Machine learning model
 * Strip, Payment(unfinished)
 * Eleven Labs API: Text to voice(unfinished)
 
