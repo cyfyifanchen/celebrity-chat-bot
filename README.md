@@ -14,7 +14,8 @@ Visit live at https://saas-demo-mu.vercel.app
 * Tailwind shadCN, styling 
 * Pinecone, Memory Service
 * OpenAI, Chat AI response
-* Strip, Payment(Unfinished)
+* Cloudiary, media service
+* Strip, Payment(unfinished)
 
 ## Home 
 ![home](public/readme-images/home.png)
@@ -24,3 +25,6 @@ Visit live at https://saas-demo-mu.vercel.app
 
 ## Chat 
 ![home](public/readme-images/chat.png)
+
+## Run local
+The project works fine with Bun 1.0, using Bun command instead of Node, it's a lot more faster. 
