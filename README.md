@@ -1,6 +1,20 @@
-## CHOOSE YOUR FIGHTER
+Visit live at https://saas-demo-mu.vercel.app
 
-Inspired by Celebrity Mortal Kombat, image credits are also from them, it is a full-stack Saas demo, it has Next, React, Tailwind, Prisma, MySQL and Clerk.
+## Celebrity Kombat
+
+* Inspired by Celebrity Mortal Kombat: https://www.youtube.com/watch?v=Z__i7C2OQQs&t=1s
+* Image credits: https://www.youtube.com/watch?v=Z__i7C2OQQs&t=1s
+
+## Tech stack
+* Auth, Clerk 
+* Next 13, App Router 
+* Prisma, schema control
+* Plantscale, DB
+* Vercel, Deployment
+* Tailwind shadCN, styling 
+* Pinecone, Memory Service
+* OpenAI, Chat AI response
+* Strip, Payment(Unfinished)
 
 ## Home 
 ![home](public/readme-images/home.png)
