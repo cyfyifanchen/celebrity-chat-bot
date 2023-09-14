@@ -18,7 +18,7 @@ Visit live at https://saas-demo-mu.vercel.app
 * OpenAI: Live LLM, chat AI response
 * Cloudiary: Media service
 * Replicate: Machine learning model
-* Strip, Payment(unfinished)
+* Strip: Payment(unfinished)
 * Eleven Labs API: Text to voice(unfinished)
 
 ## Todos
