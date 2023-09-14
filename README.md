@@ -21,10 +21,14 @@ Visit live at https://saas-demo-mu.vercel.app
 * Strip: Payment(unfinished)
 * Eleven Labs API: Text to voice(unfinished)
 
+## Running local
+I've tested, the project works fine with Bun 1.0. I'd recommend that you use it instead of using Node, it's a lot faster. 
+
 ## Todos
 * [] Setting Page
 * [] Stripe API payment(needs to verify ID, don't have it at the moment, postponing...🙁)
 * [] Text to voice: adding that would be fun.
+* [] The logo isn't right, I couldn't get the `.ttf` working with Google Font at the moment, I will find out why.
 
 ## Screenshots
 ### Home 
@@ -36,6 +40,3 @@ Visit live at https://saas-demo-mu.vercel.app
 ### Chat 
 ![Chat](public/readme-images/chat-in-response.png)
 ![Chat](public/readme-images/chat.png)
-
-## Local
-I've tested, the project works fine with Bun 1.0. I'd recommend that you use it instead of using Node, it's a lot faster. 
