@@ -6,12 +6,13 @@ async function main() {
   try {
     await db.category.createMany({
       data: [
-        { name: "Food" },
-        { name: "Movie" },
-        { name: "Games" },
-        { name: "Sports" },
-        { name: "Food" },
-        { name: "Cars" },
+        { name: "Food Industry" },
+        { name: "Singer" },
+        { name: "Actor && Actress" },
+        { name: "Basketball" },
+        { name: "Football" },
+        { name: "Politics" },
+        { name: "Animations" },
       ]
     })
   } catch (error) {
