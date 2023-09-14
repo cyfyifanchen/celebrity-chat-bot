@@ -38,7 +38,7 @@ export const NavBar = () => {
                         width={25}
                         height={25}
                     />
-                    Upgrade to Pro
+                    Upgrade to Pro to talk!
                 </Button>
                 <ModeToggle />
                 <UserButton afterSignOutUrl="/" />
