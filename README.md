@@ -43,8 +43,6 @@ I've tested, the project works fine with Bun 1.0. I'd recommend that you use it 
 
 ### Create
 
-![create](public/readme-images/ramsay.png)
-
 ### Chat
 
 ![Chat](public/readme-images/chat-in-response.png)
