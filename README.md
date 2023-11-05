@@ -29,11 +29,7 @@ I've tested, the project works fine with Bun 1.0. I'd recommend that you use it 
 
 ## Todos
 
-- [] Setting Page
-- [] Stripe API payment(needs to verify ID, don't have it at the moment, postponing...🙁)
-- [] Text to voice: adding that would be fun.
-- [] The logo isn't right, I couldn't get the `.ttf` working with Google Font at the moment, I will find out why.
-- [x] Adding analytics
+See issues.
 
 ## Screenshots
 
