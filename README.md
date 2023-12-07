@@ -1,5 +1,7 @@
 ## Celebrity Kombat
 
+![](public/readme-images/chat.gif)
+
 Visit live at https://saas-demo-mu.vercel.app
 
 ## Credits:
